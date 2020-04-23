@@ -45,8 +45,10 @@ def combinations(n,p):
 
 print('Number of variations: ' + str(variations(n, p)))
 print('Number of variations with no replacement: ' + str(variations_no_rep(n, p)))
-print('Number of combinations: ' + str(combinations(n, p)))
+print('Number of combinations: ' + str(combinations(n, p))) 
 
+
+#used for powerball. If you have 69 balls and have to choose 5 then you have a 1 out of 26 chance to guess the right ball.
 action1 = combinations(n,p)
 action2 = combinations(x,y)
 result = action1 * action2
